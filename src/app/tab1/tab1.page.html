@@ -1,8 +1,28 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-button>
+        <ion-icon name="menu" slot="icon-only"></ion-icon> <!-- https://ionic.io/ionicons?_gl=1*1fx09lz*_ga*MjE0NDgyMjgxNS4xNjMyOTUwNzc5*_ga_REH9TJF6KF*MTYzMzUxNzQzNS41LjEuMTYzMzUxNzQ3OS4w -->
+      </ion-button>
+    </ion-buttons>
+
     <ion-title>
-      Tab 1
+      ROYAL SHOP
     </ion-title>
+
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon name="search-outline" slot="icon-only"></ion-icon> <!-- https://ionic.io/ionicons?_gl=1*1fx09lz*_ga*MjE0NDgyMjgxNS4xNjMyOTUwNzc5*_ga_REH9TJF6KF*MTYzMzUxNzQzNS41LjEuMTYzMzUxNzQ3OS4w -->
+      </ion-button>
+
+      <ion-button class="cart" routerLink="/tabs/tab3">
+        <ion-icon name="cart-outline"></ion-icon> <!-- https://ionic.io/ionicons?_gl=1*1fx09lz*_ga*MjE0NDgyMjgxNS4xNjMyOTUwNzc5*_ga_REH9TJF6KF*MTYzMzUxNzQzNS41LjEuMTYzMzUxNzQ3OS4w -->
+      </ion-button>
+    </ion-buttons>
+
+    <ion-badge color="light" slot="end">0</ion-badge> <!-- https://ionicframework.com/docs/api/badge -->
+
   </ion-toolbar>
 </ion-header>
 
